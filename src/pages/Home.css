@@ -1,0 +1,43 @@
+/* Estilo geral para a página home */
+.home-container {
+    max-width: 800px;        /* Largura máxima do container */
+    margin: 50px auto;      /* Centraliza o container */
+    padding: 20px;          /* Espaçamento interno */
+    background-color: #fff; /* Fundo branco */
+    border-radius: 10px;    /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo para o título principal */
+  .home-container h1 {
+    text-align: center;      /* Centraliza o título */
+    color: #333;             /* Cor do texto */
+    margin-bottom: 20px;     /* Espaçamento inferior */
+  }
+  
+  /* Estilo para subtítulos */
+  .home-container h2 {
+    color: #000000;          /* Cor verde para subtítulos */
+    margin-top: 30px;       /* Espaçamento superior */
+    margin-bottom: 10px;    /* Espaçamento inferior */
+  }
+  
+  /* Estilo para parágrafos */
+  .home-container p {
+    line-height: 1.6;        /* Melhora a legibilidade */
+    color: #555;             /* Cor do texto */
+    margin-bottom: 15px;     /* Espaçamento inferior */
+  }
+  
+  /* Estilo para listas */
+  .home-container ul {
+    list-style-type: disc;   /* Marcadores padrão */
+    padding-left: 20px;      /* Espaçamento à esquerda */
+  }
+  
+  /* Estilo para itens de lista */
+  .home-container li {
+    margin-bottom: 10px;      /* Espaçamento inferior entre itens */
+    color: #444;              /* Cor do texto */
+  }
+  

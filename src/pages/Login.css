@@ -1,0 +1,60 @@
+/* Estilo para o container do login */
+.login-container {
+    max-width: 400px;   /* Largura máxima do container */
+    margin: 50px auto;  /* Centraliza o container com margens */
+    padding: 100px;       /* Adiciona espaçamento interno */
+    background-color: #fff; /* Fundo branco */
+    border-radius: 80px;  /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo para o título */
+  h1 {
+    text-align: center; /* Centraliza o texto */
+    color: #333;       /* Cor do texto */
+    margin-bottom: 20px; /* Espaçamento inferior */
+  }
+  
+  /* Estilo para os grupos de entrada */
+  .input-group {
+    margin-bottom: 50px; /* Espaçamento inferior entre os grupos */
+  }
+  
+  /* Estilo para os rótulos */
+  label {
+    display: block;     /* Faz com que o rótulo ocupe toda a largura */
+    margin-bottom: 5px; /* Espaçamento inferior */
+    color: #444;       /* Cor do texto */
+  }
+  
+  /* Estilo para os campos de entrada */
+  input {
+    width: 100%;       /* Largura total */
+    padding: 10px;     /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #f9f9f9; /* Fundo cinza claro */
+  }
+  
+  /* Você pode adicionar um efeito de foco para melhorar a interação */
+  input:focus {
+    border-color: #4CAF50; /* Muda a cor da borda ao focar */
+    outline: none; /* Remove o contorno padrão */
+  }
+  /* Estilo para o botão */
+  button {
+    width: 100%;       /* Largura total */
+    padding: 10px;     /* Espaçamento interno */
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white;      /* Cor do texto */
+    border: none;      /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer;    /* Cursor de pointer */
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+  }
+  
+  /* Efeito hover no botão */
+  button:hover {
+    background-color: #45a049; /* Cor do fundo ao passar o mouse */
+  }
+  

@@ -1,0 +1,35 @@
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilos da área principal */
+  .main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Título */
+  h1 {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  /* Link para o menu de navegação */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  

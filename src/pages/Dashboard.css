@@ -1,0 +1,61 @@
+/* Estilo geral para a página de Dashboard */
+.dashboard-container {
+    max-width: 800px;        /* Largura máxima do container */
+    margin: 50px auto;      /* Centraliza o container */
+    padding: 20px;          /* Espaçamento interno */
+    background-color: #fff; /* Fundo branco */
+    border-radius: 10px;    /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo para o título principal */
+  .dashboard-container h1 {
+    text-align: center;      /* Centraliza o título */
+    color: #333;             /* Cor do texto */
+    margin-bottom: 30px;     /* Espaçamento inferior */
+  }
+  
+  /* Container para as caixas */
+  .boxes-container {
+    display: flex;           /* Usar flexbox para layout */
+    justify-content: space-between; /* Espaça as caixas */
+    margin-bottom: 30px;     /* Espaçamento inferior */
+  }
+  
+  /* Estilo para cada caixa */
+  .box {
+    flex: 1;                 /* Cada caixa ocupa igual espaço */
+    margin: 0 10px;         /* Margens laterais */
+    padding: 20px;          /* Espaçamento interno */
+    background-color: #f9f9f9; /* Fundo cinza claro */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 10px;    /* Bordas arredondadas */
+    text-align: center;      /* Centraliza o texto */
+  }
+  
+  /* Estilo para o container de botões */
+  .buttons-container {
+    display: flex;           /* Usar flexbox para layout */
+    justify-content: space-around; /* Espaça os botões */
+  }
+  
+  /* Estilo para os botões */
+  /* Estilo para os botões */
+button {
+    padding: 10px 15px;     /* Ajuste o padding para ser menos largo */
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white;            /* Cor do texto */
+    border: none;            /* Remove a borda padrão */
+    border-radius: 5px;      /* Bordas arredondadas */
+    cursor: pointer;         /* Cursor de pointer */
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+    max-width: 200px;       /* Define uma largura máxima para os botões */
+    width: 100%;            /* Os botões ocupam 100% da largura do container */
+  }
+  
+  /* Efeito hover nos botões */
+  button:hover {
+    background-color: #45a049; /* Cor do fundo ao passar o mouse */
+  }
+  
+  

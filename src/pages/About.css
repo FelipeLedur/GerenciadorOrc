@@ -1,0 +1,51 @@
+/* Estilo para o container do perfil */
+.profile-container {
+    max-width: 800px;   /* Largura máxima do container */
+    margin: 20px auto;  /* Centraliza o container com margens */
+    padding: 20px;       /* Adiciona espaçamento interno */
+    background-color: #fff; /* Fundo branco */
+    border-radius: 8px;  /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo para o nome */
+  .name {
+    font-size: 2.5rem; /* Tamanho da fonte maior */
+    color: #333;       /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 10px; /* Espaçamento inferior */
+  }
+  
+  /* Estilo para a profissão */
+  .profession {
+    font-size: 1.5rem; /* Tamanho da fonte menor que o nome */
+    color: #666;       /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Espaçamento inferior */
+  }
+  
+  /* Estilo para a biografia */
+  .bio {
+    font-size: 1rem; /* Tamanho da fonte padrão */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    color: #444;      /* Cor do texto */
+    margin-bottom: 20px; /* Espaçamento inferior */
+  }
+  
+  /* Estilo para o link do GitHub */
+  .github-link {
+    display: inline-block; /* Para que o padding funcione corretamente */
+    padding: 10px 20px;  /* Espaçamento interno */
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white;        /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 5px;  /* Bordas arredondadas */
+    text-align: center;   /* Centraliza o texto */
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+  }
+  
+  /* Efeito hover no link do GitHub */
+  .github-link:hover {
+    background-color: #45a049; /* Cor do fundo ao passar o mouse */
+  }
+  

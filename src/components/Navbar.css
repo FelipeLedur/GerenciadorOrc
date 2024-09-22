@@ -1,0 +1,54 @@
+/* Estilos da barra de navegação */
+nav {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo dentro do nav */
+  }
+  
+  /* Container para os links do menu */
+  .nav-container {
+    max-width: 1200px;  /* Define a largura máxima do menu */
+    width: 100%;        /* Faz o menu se ajustar ao tamanho da tela até o limite de 1200px */
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Lista de itens do menu */
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  /* Estilos dos itens do menu */
+  li {
+    margin: 0 10px;
+  }
+  
+  /* Links do menu */
+  nav a {
+    color: white;  /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  /* Efeito hover nos links */
+  nav a:hover {
+    color: #4CAF50;  /* Cor ao passar o mouse */
+  }
+  
+  /* Adicionar padding ao conteúdo principal para não ser coberto pelo menu */
+  body {
+    padding-top: 50px; /* Ajusta de acordo com a altura do menu */
+  }
+  
